@@ -8,4 +8,4 @@ esClient.ping({
     } else {
         console.log('ElasticSearch up and running!');
     }
-})
+});
