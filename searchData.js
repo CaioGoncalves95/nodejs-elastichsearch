@@ -10,11 +10,11 @@ const searchDoc = async function(indexName, mappingType, payload) {
 
 module.exports = searchDoc;
 
-async function test() {
+async function searchByTag(tag) {
     const body = {
         query: {
             match: {
-                "title": "Learn"
+                "tags": tag
             }
         }
     }
@@ -27,4 +27,4 @@ async function test() {
     }
 }
 
-test();
+searchByTag("Programming");

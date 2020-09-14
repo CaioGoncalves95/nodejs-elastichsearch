@@ -8,7 +8,7 @@ const createIndex = async function (indexName) {
 
 module.exports = createIndex;
 
-async function test() {
+async function creatingIndex() {
     try {
         const resp = await createIndex('blog');
         console.log(resp)
@@ -17,4 +17,4 @@ async function test() {
     }
 }
 
-test();
+creatingIndex();

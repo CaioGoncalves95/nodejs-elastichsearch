@@ -12,7 +12,7 @@ const addmappingToIndex = async function(indexName, mappingType, mapping) {
 
 module.exports = addmappingToIndex;
 
-async function test() {
+async function addMapping() {
     const mapping = {
         properties: {
             title: {
@@ -39,4 +39,4 @@ async function test() {
     }
 }
 
-test();
+addMapping();

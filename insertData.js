@@ -11,7 +11,7 @@ const insertDoc = async function(indexName, _id, mappingType, data) {
 
 module.exports = insertDoc;
 
-async function test() {
+async function insertDocuments() {
     const data1 = {
         title: 'Learn Elastic Search',
         tags: ['NodeJS', 'ElasticSearch', 'Programming'],
@@ -98,4 +98,4 @@ async function test() {
     }
 }
 
-test();
+insertDocuments();
